@@ -1,0 +1,35 @@
+.search_container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.searchbar_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.searchbar_container img {
+  height: 250px;
+}
+
+.searchBarS {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: rgb(151, 206, 76);
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+  margin: 50px;
+}
+
+.results_container {
+  width: 100%;
+  padding-top: 80px;
+
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,22 @@
+.card {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.card img {
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn__link {
+  color: rgb(98, 152, 61);
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 5px;
+}

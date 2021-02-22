@@ -1,0 +1,28 @@
+.navbar_container {
+  height: 130px;
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  height: 90%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img {
+  height: 100px;
+}
+
+.navbar_link {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(98, 152, 61);
+}
