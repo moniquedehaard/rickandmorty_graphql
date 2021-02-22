@@ -3,8 +3,10 @@ import { useQuery, gql } from "@apollo/client";
 import { Link } from "react-router-dom";
 
 // COMPONENTS
-import Loading from "../../components/Loading/Loading";
-import NotFound from "../NotFoundPage/NotFoundPage";
+import { Loading } from "../../components";
+
+// PAGES
+import { NotFoundPage } from "../NotFoundPage";
 
 // STYLES
 import "./CharacterDetailPage.css";
@@ -45,7 +47,7 @@ export default function CharacterDetailPage(props) {
   if (loading) return <Loading />;
 
   // ERROR
-  if (error) return <NotFound />;
+  if (error) return <NotFoundPage />;
 
   // if DATA exists
   if (data) {
