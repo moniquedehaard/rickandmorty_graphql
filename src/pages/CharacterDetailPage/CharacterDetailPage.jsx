@@ -73,6 +73,7 @@ export default function CharacterDetailPage(props) {
             </button>
           ) : (
             <Link
+              className="btn_gb"
               to={{
                 pathname: `/search`,
                 state: { search: string.searchTerm },

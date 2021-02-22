@@ -44,6 +44,7 @@
   font-size: 20px;
   padding: 20px;
   text-align: left;
+  outline: none;
 }
 
 .container_right {

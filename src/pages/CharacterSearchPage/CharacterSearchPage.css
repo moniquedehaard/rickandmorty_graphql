@@ -24,6 +24,7 @@
   padding: 20px;
   text-align: left;
   margin: 50px;
+  outline: none;
 }
 
 .results_container {
@@ -31,5 +32,6 @@
   padding-top: 80px;
 
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }

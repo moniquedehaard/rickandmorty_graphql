@@ -18,11 +18,12 @@
 .btn_gb {
   color: white;
   background-color: rgb(151, 206, 76);
-  font-size: 14px;
+  font-size: 16px;
   padding: 8px 30px;
   border-style: none;
   border-radius: 20px;
   outline: none;
+  text-decoration: none;
 }
 
 .content_container {

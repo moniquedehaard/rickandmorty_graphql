@@ -1,11 +1,13 @@
 import React from "react";
 
+import "./Loading.css";
+
 export default function Loading() {
   return (
-    <div>
+    <div className="loading_ctn">
       <h1> Wait for it..</h1>
-      <img style={{ height: "400px" }} src="loading.png" alt="loading" />
-      <h2>This page is loading...</h2>
+      <img src="loading.png" alt="loading" />
+      <h3>This page is loading...</h3>
     </div>
   );
 }

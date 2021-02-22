@@ -1,16 +1,19 @@
-.loading_ctn {
+.nf_container {
   width: 90%;
   margin: 0 auto;
+}
 
+.notFound {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.loading_ctn img {
-  height: 300px;
+.notFound img {
+  height: 250px;
 }
 
-.loading_ctn h1 {
+.notFound h1 {
   color: rgb(151, 206, 76);
 }
