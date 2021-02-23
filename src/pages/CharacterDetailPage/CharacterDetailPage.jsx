@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { Loading } from "../../components";
 
 // PAGES
-import { NotFoundPage } from "../NotFoundPage";
+import NotFound from "../NotFoundPage/NotFoundPage";
 
 // STYLES
 import "./CharacterDetailPage.css";
@@ -47,7 +47,7 @@ export default function CharacterDetailPage(props) {
   if (loading) return <Loading />;
 
   // ERROR
-  if (error) return <NotFoundPage />;
+  if (error) return <NotFound />;
 
   // if DATA exists
   if (data) {

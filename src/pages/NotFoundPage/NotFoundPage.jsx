@@ -7,7 +7,7 @@ export default function NotFound() {
     <div className="nf_container">
       <div className="notFound">
         <h1> Oops something went terrible wrong...</h1>
-        <img src="notfound.png" alt="notfound" />
+        <img src={window.location.origin + "/notfound.png"} />
         <br />
         <h4> Go back to home</h4>
       </div>
